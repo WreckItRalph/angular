@@ -114,7 +114,7 @@ Effects are rarely needed in most application code, but may be useful in specifi
 * Logging data being displayed and when it changes, either for analytics or as a debugging tool.
 * Keeping data in sync with `window.localStorage`.
 * Adding custom DOM behavior that can't be expressed with template syntax.
-* Performing custom rendering to a `<canvas>`, charting library, or other third party UI library.
+* Performing custom rendering to a ```<canvas>```, charting library, or other third party UI library.
 
 <docs-callout critical title="When not to use effects">
 Avoid using effects for propagation of state changes. This can result in `ExpressionChangedAfterItHasBeenChecked` errors, infinite circular updates, or unnecessary change detection cycles.
